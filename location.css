@@ -204,13 +204,13 @@ footer > img {
 
 @media screen and (max-width: 640px) {
   body {
-    width: 195vw;
+    width: 200vw;
   }
 
   .map-section,
   .location-section,
   .footer-section {
-    width: 195vw;
+    width: 200vw;
   }
 
   .map-section {
