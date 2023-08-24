@@ -322,30 +322,158 @@ footer > img {
 }
 
 @media screen and (max-width: 640px) {
+  body {
+    width: 200vw;
+  }
+
   .top-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30rem;
   }
   .bg-hero {
     display: flex;
     flex-direction: column;
-    background: url("assets/mobile/image-hero.jpg") no-repeat;
+    background: url("assets/mobile/image-hero@2x.jpg") no-repeat;
     background-size: contain;
   }
 
   .title {
-    margin-left: 1rem;
-    width: 21.4375rem;
-    margin-top: 17rem;
+    margin-top: 34rem;
+  }
+  .title,
+  .bg-hero > p,
+  .gallery-intro > h2,
+  .gallery-intro > p,
+  .bg-grid-1,
+  .bg-grid-2,
+  .bg-grid-3,
+  .bg-grid-4 {
+    width: 42.875rem;
+    margin-left: auto;
+  }
+
+  .title,
+  .bg-hero > p,
+  .bg-hero .btn {
+    margin-left: 2rem;
   }
 
   .title > h1 {
-    font-size: 3.75rem;
-    line-height: 3.4375rem;
+    font-size: 7.5rem;
+    line-height: 6.875rem;
+  }
+
+  .bg-hero > p {
+    margin-top: 51.76rem;
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+  }
+
+  .btn-location {
+    font-size: 2.5rem;
+    width: 25.5rem;
+  }
+
+  .btn {
+    margin-top: 4rem;
+  }
+  .btn .btn-arrow {
+    width: 7rem;
+  }
+
+  .btn-location,
+  .btn-arrow {
+    height: 9rem;
   }
 
   .bottom-container {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
     display: flex;
     flex-direction: column;
+  }
+
+  .gallery-intro > h2 {
+    font-size: 6.25rem;
+    line-height: 5.625rem;
+  }
+
+  .gallery-intro > p,
+  .bg-grid-3 > p {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .bg-grid-1 {
+    margin-top: 4rem;
+    height: 40rem;
+    background: url("assets/mobile/image-grid-1@2x.jpg") no-repeat;
+  }
+
+  .bg-grid-2 {
+    height: 60rem;
+    background: url("assets/mobile/image-grid-2@2x.jpg") no-repeat;
+  }
+
+  .bg-grid {
+    margin-left: 0;
+  }
+
+  .bg-grid-3 {
+    height: 36.625rem;
+    padding-left: 3rem;
+    padding-top: 6rem;
+  }
+
+  .bg-grid-4 {
+    height: 25rem;
+    background: url("assets/mobile/image-grid-3@2x.jpg") no-repeat;
+  }
+
+  .bg-grid-2,
+  .bg-grid-3,
+  .bg-grid-4 {
+    margin-top: 2rem;
+  }
+
+  .bg-grid-3 > h2 {
+    font-size: 6.25rem;
+    line-height: 5.625rem;
+  }
+
+  .bg-grid-3 > h2,
+  .bg-grid-3 > p {
+    width: 36.875rem;
+  }
+
+  .bg-grid-3 > p {
+    margin-top: 3rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 42rem;
+    padding: 6rem 4rem;
+  }
+
+  .footer-section > img {
+    width: 13.75626rem;
+    height: 5rem;
+  }
+
+  .footer-section > p {
+    width: 38.875rem;
+    font-size: 2rem;
+    line-height: 3.25rem;
+  }
+
+  .footer-section .social-media-icon {
+    width: 12.5rem;
+  }
+  .social-media-icon > img,
+  .social-media-icon > a > img {
+    height: 2.5rem;
   }
 }
