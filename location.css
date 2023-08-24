@@ -20,11 +20,8 @@ p {
 .map-section {
   height: 37.5rem;
   background: url("assets/desktop/image-map.png") no-repeat;
-}
-
-.map-section,
-.location-section {
-  width: 90.05631rem;
+  width: 100%;
+  background-size: cover;
 }
 
 .btn {
